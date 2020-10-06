@@ -74,15 +74,25 @@ Now perform 3 steps as per below screen
 ![screen](https://github.com/ashwinraiyani/skillbadge4/blob/main/42.png)
 
 Now comeback to cloudshell
+
 Type *gcloud config set compute/zone us-east1-b*
+
 Type *gcloud source repos clone sample-app*
+
 Type *cd sample-app*
+
 Type *touch a*
+
 Type *git config --global user.email "$(gcloud config get-value account)"*
+
 Type *git config --global user.name "Student"*
+
 Type *git commit -a -m "change"*
+
 Type *git tag v1.0.1*
+
 Type *git push --tags*
+
 
 **Wait for few minutes to get reflect in marks**
 
