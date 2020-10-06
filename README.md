@@ -71,7 +71,7 @@ Click on applications-> Click on sample
 
 Now perform 3 steps as per below screen
 
-![screen](https://github.com/ashwinraiyani/skillbadge4/blob/main/42.jpg)
+![screen](https://github.com/ashwinraiyani/skillbadge4/blob/main/42.png)
 
 Now comeback to cloudshell
 Type *gcloud config set compute/zone us-east1-b*
