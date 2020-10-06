@@ -22,12 +22,12 @@ Type *gcloud container clusters get-credentials kraken-prod*
 
 Type *cd /work/k8s*
 
-Type *for F in $(ls *.yaml); do kubectl create -f $F; done*
+Type for F in $(ls *.yaml); do kubectl create -f $F; done
 
 Type *kubectl get services*
 
 
-**Task Completed check the Progress**
+Wait for 2 minutes  **Task Completed check the Progress** 
 
 # Task 2: Setup the Admin instance
 
