@@ -44,29 +44,46 @@ Click Add Condition, and then set up the Metrics with the following parameters:
 
 **Fields	Options**
 Resource Type: 	GCE VM Instance
+
 Metric:	CPU Utilization 
+
 Filter:	Choose **instance name** and select **kraken-admin**
+
 Scrolldown -- Enter 0.5 in Thresold for 1 minute
 
 Click ADD, Click Next, In Notification channel select **Manage Notificaiton channels**
+
  May new browser will open up, Find Email - Click on *Add New*
+ 
  Copy username from Qwiklabs and enter into email id place
+ 
  Copy ProjectID from Qwiklabs and enter into display name
+ 
  Click Save
+ 
 Give Alert Name if ask 
+
 Click Save.
+
+
 
 **Task Completed check the Progress**
 # Task 3: Verify the Spinnaker deployment
 
 use cloudshell (click on right corner ">_" icon)
 
+
 Type *gcloud config set compute/zone us-east1-b*
+
 Type *gcloud container clusters get-credentials spinnaker-tutorial*
+
 Type *DECK_POD=$(kubectl get pods --namespace default -l "cluster=spin-deck" -o jsonpath="{.items[0].metadata.name}")*
+
 Type *kubectl port-forward --namespace default $DECK_POD 8080:9000 >> /dev/null &*
 
+
 Click the Web Preview icon at the top of the Cloud Shell window and select Preview on port 8080, to open the Spinnaker user interface.
+
 ![screen](https://github.com/ashwinraiyani/skillbadge4/blob/main/41.jpg)
 
 Click on applications-> Click on sample 
