@@ -47,21 +47,11 @@ Resource Type: 	GCE VM Instance
 
 Metric:	CPU Utilization 
 
-Filter:	Choose **instance name** and select **kraken-admin**
+Filter:	Choose **instance name** and type **kraken-admin**
 
 Scrolldown -- Enter 0.5 in Thresold for 1 minute
 
-Click ADD, Click Next, In Notification channel select **Manage Notificaiton channels**
-
- May new browser will open up, Find Email - Click on *Add New*
- 
- Copy username from Qwiklabs and enter into email id place
- 
- Copy ProjectID from Qwiklabs and enter into display name
- 
- Click Save
- 
-Give Alert Name if ask 
+Click ADD, Click Next
 
 Click Save.
 
@@ -112,6 +102,10 @@ Type *git tag v1.0.1*
 
 Type *git push --tags*
 
+Wait for 1 minutes then goto 
+Open pipelines and manually run the pipeline if it has not already running. Approve the deployment to production. Refer below screen
+
+![screen](https://github.com/ashwinraiyani/skillbadge4/blob/main/43.png)
 
 **Wait for few minutes to get reflect in marks**
 
