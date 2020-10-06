@@ -4,6 +4,8 @@
 
 First of all, navigate to *Deployment Manager* in the Console to check the deployment status of **kraken-jumphost**.
 
+![screen](https://github.com/ashwinraiyani/skillbadge4/blob/main/40.png)
+
 Click on **kraken-jumphost**,  on left side you will see VM instance and near by SSH button click on it.
 
 On SSH Screen type *cd /work/dm* 
