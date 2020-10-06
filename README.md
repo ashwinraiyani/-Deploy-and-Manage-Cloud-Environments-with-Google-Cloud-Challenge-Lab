@@ -65,13 +65,13 @@ Type *DECK_POD=$(kubectl get pods --namespace default -l "cluster=spin-deck" -o 
 Type *kubectl port-forward --namespace default $DECK_POD 8080:9000 >> /dev/null &*
 
 Click the Web Preview icon at the top of the Cloud Shell window and select Preview on port 8080, to open the Spinnaker user interface.
-![screen]
+![screen](https://github.com/ashwinraiyani/skillbadge4/blob/main/41.jpg)
 
 Click on applications-> Click on sample 
 
 Now perform 3 steps as per below screen
 
-![screen]
+![screen](https://github.com/ashwinraiyani/skillbadge4/blob/main/42.jpg)
 
 Now comeback to cloudshell
 Type *gcloud config set compute/zone us-east1-b*
