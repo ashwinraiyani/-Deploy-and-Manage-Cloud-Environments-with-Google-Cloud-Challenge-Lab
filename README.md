@@ -89,7 +89,9 @@ Type *gcloud config set compute/zone us-east1-b*
 Type *gcloud source repos clone sample-app*
 
 cd sample-app
+
 git config --global user.email "$(gcloud config get-value core/account)"
+
 git config --global user.name "$(gcloud config get-value core/account)"
 
 sed -i 's/orange/blue/g' cmd/gke-info/common-service.go
